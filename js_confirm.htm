@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>js14_confirm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8"/>
+</head>
+
+<body>
+<script language="JavaScript">
+
+	/* Objetivo: Desenvolver um programa que faça o teste de execução de duas opç~es utilizando o método confirm */
+
+/*Variáveis*/
+var js_resp;
+
+/* Após o botão selecionado, js_resp receberá um valor lógico true ou false */
+js_resp = window.confirm('Clique em um dos dois botões. ');
+
+/* Decisão condicional */
+
+	if(js_resp == true){
+		document.write('Você acionou o botão: <b>OK</b>');
+	}
+	else{
+		document.write('Você acionou o botão <b>Cncelar</b>');
+	}
+
+</script>
+</body>
+</html>
